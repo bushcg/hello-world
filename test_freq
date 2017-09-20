@@ -1,0 +1,7 @@
+proc freq data=lib.ccsummary; 
+tables _ALL_; 
+format _numeric_ oops. 
+    _char_    $oops.;
+    run;
+    
+    
